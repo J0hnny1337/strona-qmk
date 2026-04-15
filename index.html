@@ -1,0 +1,141 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link href="2023images/favicon.png?v=2" rel="icon" type="image/x-icon"/>
+  <title>
+   Top-Art | Agencja Reklamowo-Artystyczna
+  </title>
+  <style type="text/css">
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+		html { height: 100%; overflow: hidden; }
+		body { margin: 0px; padding: 0px; background: #000; font-family: 'Montserrat', sans-serif; color:#fff; font-size:16px; line-height: 24px; height: 100vh; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; }
+		#bg-video { position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -100; object-fit: cover; }
+
+		a { color: #fff;}
+
+		.fantom-menu { display: flex; opacity:0.5; gap:25px; padding: 30px; justify-content: flex-end;}
+		.fantom-menu .info { font-size:14px; width: 350px; text-align: right; position: relative; top:-8px;}
+		.fantom-menu .arrow {}
+		.fantom-menu .arrow img { width: 115px; height: auto; position: relative; top:40px;}
+		.fantom-menu .burger {}
+		.fantom-menu .burger img { width: 64px; height: auto;}
+
+		.logo-video { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 424px; margin: auto auto 0px auto; text-align: center; }
+		.logo-video img.logo { width: 125%; height: auto; }
+		.logo-video img.text { width: 372px; height: auto; margin-top: 20px;}
+
+		.flexcontact { display: flex; gap:60px; justify-content: center; max-width: 730px; margin: 10px auto 10px auto; }
+		.flexcontact .icon { text-align: center; width: 200px; }
+		.flexcontact img { width: 32px; height: auto;}
+
+		.pfr { text-align: center; opacity:0.7; margin: 10px 0px 10px 0px; }
+		.pfr img { max-width: 100%; height: auto;}
+
+		.qrsection { display:flex; gap:60px; text-align: center; justify-content:center; font-weight: bold; max-width: 730px; margin: 10px auto 20px auto; flex-wrap: wrap}
+		.qrsection .name { margin-bottom: 30px;}
+		.qrsection img { width: 180px; height: auto; padding-top: 10px; background: #fff; padding: 10px;}
+
+		@media (max-height: 768px) { .pfr { position: static; } }
+
+		@media (max-width: 1100px) {
+			.logo-video { width:300px; margin-top: 80px; }
+			.logo-video img { max-width: 100%;}
+			.logo-video img.text { width:250px;}
+
+			.qrsection { flex-wrap:wrap;}
+
+		}
+
+		@media (max-width: 600px) {
+			html { height: auto;}
+			body { height: auto;}
+			.fantom-menu .arrow img { width: 55px; }
+			.fantom-menu .burger img { width: 32px; }
+			.flexcontact { flex-direction:column;}
+			.pfr { position: static; }
+
+			.fantom-menu .arrow img { width: 55px; }
+			.fantom-menu .burger img { width: 32px; }
+			.logo-video {  margin-top: 0px; }
+		}
+  </style>
+ </head>
+ <body>
+  <video autoplay loop muted playsinline id="bg-video">
+   <source src="freepik_make-a-moving-visualiseer_2793784037.mp4" type="video/mp4">
+  </video>
+  <div class="conlogo">
+   <div class="logo-video">
+    <img alt="topart" class="logo" src="QMK LOGO 2026 1.png"/>
+   </div>
+  </div>
+
+  <div class="qrsection">
+   <div class="qrc">
+    <div class="name">
+     Krzysztof Kamiński
+    </div>
+    <div class="qcode">
+     <img alt="Kod QR Krzysztof Kamiński" src="images/qr-krzysztof-kaminski.svg"/>
+    </div>
+   </div>
+   <div class="qrc">
+    <div class="name">
+     Monika Fladecka
+    </div>
+    <div class="qcode">
+     <img alt="Kod QR Martyna Dziedzioło" src="images/qr-monika-fladecka.svg"/>
+    </div>
+   </div>
+
+   <div class="qrc">
+    <div class="name">
+     Agnieszka Gołębiarz
+    </div>
+    <div class="qcode">
+     <img alt="Kod QR Agnieszka Gołębiarz" src="images/qr-agnieszka-golebiarz.svg"/>
+    </div>
+   </div>
+
+  </div>
+  <div class="contcontact">
+   <div class="flexcontact">
+    <div class="icon">
+     <div class="svg">
+      <img alt="adres" src="images/icon01.svg"/>
+     </div>
+     <div class="text">
+      ul. 23 Marca 77 E,
+      <br/>
+      81-820 Sopot
+     </div>
+    </div>
+    <div class="icon">
+     <div class="svg">
+      <img alt="telefon" src="images/icon02.svg"/>
+     </div>
+     <div class="text">
+      biuro +48 58 555 09 89
+      <br/>
+     </div>
+    </div>
+    <div class="icon">
+     <div class="svg">
+      <img alt="telefon" src="images/icon03.svg"/>
+     </div>
+     <div class="text">
+      adres email:
+      <br/>
+      <a href="mailto:biuro@qmk.pl">
+       biuro@qmk.pl
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="pfr">
+   <img alt="PFR" src="images/pfr.png"/>
+  </div>
+ </body>
+</html>
